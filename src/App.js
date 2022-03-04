@@ -89,11 +89,11 @@ function App() {
 
       Polygon-Matic Gas Tracker
       </h1>
-      {!blockHistory && <div> <p>Data is loading...</p> <Audio heigth="100"
+      {!blockHistory && <div> <p>Connecting to Polygon...</p> <div className="bars"><Audio heigth="100"
     width="100"
     color='#7b3fe4'
     text-align="center"
-    ariaLabel= "loading"/> </div>}
+    ariaLabel= "loading"/> </div> </div>}
       {avgGas && avgBlockVolume && <h2>
         <span className='gas' style={{ color: "white", padding: "10px", backgroundColor: "#7b3fe4"}} >Average Gas Cost: {avgGas} Gwei </span>
       </h2>}

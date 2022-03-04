@@ -14,7 +14,9 @@ I then ran the command `$npm update` in the root directory to gain the full meth
 - Chrome is pretty verbose about the issues you might face when loading an unpacked dist or build folder from your project directory with errors. Still, a helpful guide is here on how to use React in a chrome extension: https://gilfink.medium.com/building-a-chrome-extension-using-react-c5bfe45aaf36
 - Build script from this tutorial: https://dev.to/bayardlouis470/create-chrome-extension-in-react-3pna
 - Set up the webpack -cli here: https://webpack.js.org/guides/getting-started/
-
+- Used this to determine gas blocks: https://dev.to/rounakbanik/building-an-eip-1559-gas-tracker-4p7k
+- Used React-loader npm package for the loading screen.
+- Used React-tool-tip npm package for tooltip to display reload info.
 
 # Biggest Lessons Learned: React lifecycle & webpack 5 configuration.
 - Issue: Webpack 5 upgrade

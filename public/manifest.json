@@ -1,7 +1,7 @@
 {
   "name": "Polygon-Matic Gas Tracker",
   "description": "An app to track Polygon gas prices compliant with EIP-1559. Has real-time block streaming. Displays real-time price information",
-  "version": "1.1",
+  "version": "1.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
@@ -15,7 +15,7 @@
   },
 
   "content_security_policy": {
-    "extension_pages" : "script-src 'self' https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js; connect-src 'self' https://api.coingecko.com/api/v3/simple/price; object-src 'self'"
+    "extension_pages" : "script-src 'self'; connect-src 'self' wss://polygon-mainnet.g.alchemy.com/v2/Wq8pHfawsfS8L426HyXtx6GcPM0c1bPp https://api.coingecko.com/api/v3/simple/price https://gasstation-mainnet.matic.network/; object-src 'self'"
  },
 
 "permissions": ["alarms"],
