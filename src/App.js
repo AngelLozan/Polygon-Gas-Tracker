@@ -80,7 +80,7 @@ function App() {
 
     <a data-tip data-for='info' style={{position: 'absolute', right: '5px'}}> How is gas calculated? </a>
     <ReactTooltip id='info' place='bottom' type='dark' effect='float'>
-    <span>The gas price displayed ("Average Gas Cost") is calculated between lower and higher percentiles of priority fees (Priority 1, 2 & 3). The Average Gas Cost changes faster than the badge icon as it's calculated in real time and is based on a range of data. The blocks are displayed below. The icon badge is based on the standard fee from one block pulled every 15 seconds. Matic price is from Coingecko. If this does not load, open and close the extension to refresh.</span>
+    <span>The gas price displayed ("Average Gas Cost") is calculated between lower and higher percentiles of priority fees (Priority 1, 2 & 3). The Average Gas Cost changes faster than the badge icon as it's calculated in real time and is based on a range of data. The blocks are displayed below. The icon badge is based on the standard, max-fee from one block pulled every 15 seconds. Matic price is from Coingecko.</span>
     </ReactTooltip>
 
 

@@ -38,9 +38,9 @@ chrome.alarms.onAlarm.addListener(() => {
 
 
 async function GetGas(items) {
-  let response = await fetch('https://gasstation-mainnet.matic.network/');
+  let response = await fetch('https://gasstation-mainnet.matic.network/v2');
   let json = await response.json()
-  let standard = (json['standard']).toFixed()
+  let standard = (json['standard']['maxFee']).toFixed(1)
    chrome.action.setBadgeText({ text: String(standard) });
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "Polygon-Matic Gas Tracker",
   "description": "An app to track Polygon gas prices compliant with EIP-1559. Has real-time block streaming. Displays real-time price information",
-  "version": "1.2",
+  "version": "1.5",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
